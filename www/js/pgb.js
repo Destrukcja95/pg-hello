@@ -20,7 +20,7 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
-unction MyInfo() {
+function MyInfo() {
 
 	info =  'Hi, Marek Kopeć :-)' + '\n' +
 			
