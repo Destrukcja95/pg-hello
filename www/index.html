@@ -10,5 +10,19 @@
 		<p id="dp"></p>
 		<input type="button" onclick="deviceInfo()" value="Let me introduce myself!">
 		<input type="button" onclick="deviceInfo()" value="Marek Kopeć">
+		function deviceInfo() {
+
+	info =  'Hi, I am your smartphone :-)' + '\n' +
+			'=====' + '\n' +
+			'Device Name    : '     + device.name     + '\n' + 
+			'Device Cordova : '  + device.cordova + '\n' + 
+			'Device Platform: ' + device.platform + '\n' + 
+			'Device UUID    : '     + device.uuid     + '\n' + 
+			'Device Model   : '    + device.model     + '\n' + 
+			'Device Version : '  + device.version  + '\n';
+
+	navigator.notification.alert(info);
+	
+}
 	</body>
 </html>
