@@ -20,3 +20,10 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+
+function MyInfo() {
+
+	info =  'Marek Kopeć student UEK\n' +
+			
+
+	navigator.notification.alert(info);
